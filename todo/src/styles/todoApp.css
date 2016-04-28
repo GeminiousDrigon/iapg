@@ -1,27 +1,32 @@
 
 .todoApp{
-    width:500px;
+    width:650px;
     margin-left:auto;
     margin-right:auto;
-    background-color:pink;
-    
+    background-color: beige;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .todoApp .header{
-    font-family:Verdana;
+    font-family: "Courier New";
     font-size:40px;
     text-align:center;
-    color:Orange;
+    color: black;
 }
 .todoApp .card{
-    font-family:Magneto;
-    font-size:40px;
-    width:98%;
+    font-family: "Courier New";
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-size: 20px;
+    width:80%;
     height:50px;
     color:black;
-    border:3px solid darkblue;
-    margin:3px;
-    border-radius:10px;
-    text-align:center;
+    border-bottom:3px solid black;
+    background-color:  bisque;
 }
 .close{
     float:right;
@@ -31,8 +36,9 @@
     background:black;
 }
 .input{
-    width:98%;
+    width:70%;
     height:30px;
     text-align:center;
     font-size:25px;
+    margin-bottom: 15px;
 }
